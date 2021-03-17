@@ -1,0 +1,20 @@
+{
+  "name": "jit-vite-preact",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "preact": "^10.5.9"
+  },
+  "devDependencies": {
+    "@prefresh/vite": "^2.0.0",
+    "@tailwindcss/jit": "file:../tailwindcss-jit",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3",
+    "typescript": "^4.1.3",
+    "vite": "^2.0.0-beta.12"
+  }
+}
